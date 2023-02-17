@@ -1,0 +1,89 @@
+body{
+    background:rgb(42, 55, 63) url(https://photos-2.dropbox.com/t/2/AACXQ_67JHXFKvEaqJWfsntp3cdvZ5wouSYvGO6wvJXxrg/12/670825672/jpeg/32x32/1/_/1/2/cutlery.jpg/EMbmxb0FGB0gBygH/hFUR9L79V2OIV-qumnK9gEZDFufrBDC0AvCr9pctqno?size=1280x960&size_mode=3) center center no-repeat;
+    background-size: cover;
+    color: rgb(241, 158, 48);
+}
+#container{
+    width: 500px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url(https://photos-3.dropbox.com/t/2/AADc4QWfisqOp9ossiflh-MjZfYwwMsTMxogUkSELkEBog/12/670825672/jpeg/32x32/1/_/1/2/paper-pattern.jpg/EMbmxb0FGB4gBygH/HXFrPb4KgB-jYL8JrSohX_9NNPGgbKsDnptQBOEO-xo?size=1280x960&size_mode=3)top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+form{
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+form input, form select{
+    padding: 8px;
+    margin: 10px 0;
+}
+form input [type="text"]{
+    width: 90px;
+    color:#ddd;
+
+}
+.textarea{
+    background-color: #111;
+    color: white;
+}
+button{
+    background: #411c1c;
+    color: rgb(219, 218, 136);
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+button:hover{
+    background: #eb645f;
+    border-bottom: #111;
+}
+#Reset{
+    width: 50%;
+    margin-left: 100px; 
+    margin-top: 10px;  
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+a:hover{
+    color: aqua;
+}
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+#totalTip:before{
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+#totalTip sup{
+    font-size: 24px;
+    top: -18px;
+}
+#totalTip small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
